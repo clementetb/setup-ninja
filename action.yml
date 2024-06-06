@@ -14,7 +14,7 @@ inputs:
     description: Override default platform detection logic. Accepted values are [mac, linux, win]
     required: false
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'dist/index.js'
 
 branding:
